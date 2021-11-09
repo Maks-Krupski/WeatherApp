@@ -1,0 +1,46 @@
+.day__weather {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: 100%;
+  width: (100% / 5);
+  font-size: 1rem;
+
+  &:not(:last-child) {
+    border-right: 1px solid #000;
+  }
+
+  & img {
+    margin: -13px auto 0;
+    width: 70px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.687));
+  }
+}
+
+.day__btn {
+  margin: 0 auto;
+  outline: none;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px #0000004d,
+              -1px -1px 1px 1px #ffffff1f;
+  padding: 0px 10px;
+  font-size: 1rem;
+
+  &:hover {
+    background: rgb(108, 204, 245);
+    color: #fff;
+  }
+}
+
+.day__night-temperature {
+  font-size: 0.8rem;
+  color: rgb(85, 85, 85);
+}
+
+.active {
+  background: rgb(108, 204, 245);
+  color: #fff;
+}

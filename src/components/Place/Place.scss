@@ -1,0 +1,19 @@
+.weather__options {
+  text-align: center;
+  display: flex;
+}
+
+.weather__temperature {
+  font-size: 80px;
+  line-height: 80px;
+}
+
+.weather__description {
+  line-height: 25px;
+  font-size: 25px;
+}
+
+.weather__img {
+  height: 120px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.687));
+}

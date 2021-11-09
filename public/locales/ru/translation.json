@@ -1,0 +1,18 @@
+{
+  "loadingBtn": "Поиск",
+  "geolocationBtn": "Текущая геолокация",
+  "humidity": "влажность",
+  "clouds": "облачность",
+  "rain": "дождь",
+  "pressure": "давление",
+  "Sunday": "Воскресенье",
+  "Monday": "Понедельник",
+  "Tuesday": "Вторник",
+  "Wednesday": "Среда",
+  "Thursday": "Четверг",
+  "Friday": "Пятница",
+  "Saturday": "Суббота",
+  "wind": "ветер",
+  "km/h": "км/ч",
+  "show": "Открыть"
+}

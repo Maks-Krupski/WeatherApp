@@ -1,0 +1,23 @@
+.geolocation__btn {
+  display: inline-block;
+  outline: none;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px #0000004d,
+              -1px -1px 1px 1px #ffffff1f;
+  padding: 5px;
+  font-size: 20px;
+
+  &:hover {
+    background: rgb(108, 204, 245);
+    color: #fff;
+  }
+}
+
+@media (min-width: 1350px) {
+  .geolocation__btn {
+    display: block;
+    margin: 0 auto;
+  }
+}
