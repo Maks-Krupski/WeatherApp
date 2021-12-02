@@ -8,6 +8,8 @@ import './WeatherMap.scss';
 const WeatherMap = ({ lat, lon, wind, windDirection }) => {
   const { t } = useTranslation();
 
+  console.log(lat, lon);
+
   return (
     <div className='map'>
       <YMaps>

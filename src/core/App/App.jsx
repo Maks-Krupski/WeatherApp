@@ -67,8 +67,6 @@ const App = ({ weather }) => {
   const handleSubmit = (event, language) => {
     event.preventDefault();
 
-    /* const city = event.target.elements.city.value; */
-
     cityWeather(inputValue, language);
     setInputValue('');
   };
@@ -83,8 +81,6 @@ const App = ({ weather }) => {
 
     if (weather.days[0].city) {
       cityWeather(weather.days[0].city, language);
-
-      console.log('changed');
     }
   };
 
